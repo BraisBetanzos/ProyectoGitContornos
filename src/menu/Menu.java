@@ -34,7 +34,8 @@ public class Menu {
         System.out.println("2 - Comprobar si es primo");
         System.out.println("3 - Imprimir los 5 números anteriores y los 5 posteriores");
         System.out.println("4 - Imprimir el cuadrado del número");
-        
+        System.out.println("HOLA MUNDO");
+
         do {
             opcion = tec.nextInt();
         } while (opcion < 1 || opcion > 4);
